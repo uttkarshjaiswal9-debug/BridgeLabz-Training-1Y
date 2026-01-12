@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class AddNumbers {
+public class AddTwoNumbers {
     public static void main(String[] args) {
         Scanner myObj = new Scanner(System.in);
         System.out.print("Enter first number: ");
