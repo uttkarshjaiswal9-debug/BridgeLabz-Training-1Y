@@ -1,0 +1,29 @@
+package com.gla.inheritance.examples;
+
+interface A {
+    void showA();
+}
+interface B {
+    void showB();
+}
+class C implements A , B {
+    public void showA(){
+        System.out.println("Method of A ");
+    }
+    public void showB(){
+        System.out.println("Method of B");
+    }
+}
+class D extends C {
+    void showD(){
+        System.out.println("method of D");
+    }
+}
+public class Hybridlevelinheritance {
+    public static void main (String[] args){
+        D obj = new D();
+        obj.showA();
+        obj.showB();
+        obj.showD();
+    }
+}
