@@ -1,0 +1,14 @@
+package com.gla.GenericsCollection.GenericProblemStatements;
+
+public abstract class WarehouseItem {
+
+    String name;
+
+    public WarehouseItem(String name) {
+        this.name = name;
+    }
+
+    public String toString() {
+        return name;
+    }
+}
