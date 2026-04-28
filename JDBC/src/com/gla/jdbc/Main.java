@@ -174,6 +174,15 @@ public class Main {
         tm.completeTask(1);
 
         tm.deleteCompletedTasks();
+
+        Order o1 = new RegularOrder(101, 500);
+        Order o2 = new PremiumOrder(102, 500);
+
+        o1.calculateBill();
+        System.out.println();
+
+        o2.calculateBill();
     }
 }
+
 
